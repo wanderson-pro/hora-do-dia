@@ -7,15 +7,15 @@ function relogioDigital() {
     
     if (hora >= 5 && hora < 12) {
         //Bom Dia
-        imagem.src = 'manha.png'
+        imagem.src = 'imagem/manha.png'
         document.body.style.background = '#ECDBC8'
     } else if (hora >= 12 && hora <= 18) {
         //Boa Tarde
-        imagem.src = 'tarde.png'
+        imagem.src = 'imagem/tarde.png'
         document.body.style.background = '#E68F71'
     } else if (hora <= 24 || hora < 5) {
         //Boa Noite
-        imagem.src = 'noite.png'
+        imagem.src = 'imagem/noite.png'
         document.body.style.background = '#2D6AC2'
     }
 
